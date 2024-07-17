@@ -1,0 +1,276 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom right, rgb(210, 62, 102),rgb(236, 27, 198));
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px ;
+
+}
+ img{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    filter: saturate();
+    transition: 0.7s;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+
+ }
+
+ .button{
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: 0.7s;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+
+ }
+
+ .button:hover{
+    background-color: rgba(0,0,0,0.2);
+ }
+
+ #slider1:target ~ .imgContainer #img1,
+ #slider1:target ~ .imgContainer #button1{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider2:target ~ .imgContainer #img2,
+ #slider2:target ~ .imgContainer #button2{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider3:target ~ .imgContainer #img3,
+ #slider3:target ~ .imgContainer #button3{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider4:target ~ .imgContainer #img4,
+ #slider4:target ~ .imgContainer #button4{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider5:target ~ .imgContainer #img5,
+ #slider5:target ~ .imgContainer #button5{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider6:target ~ .imgContainer #img6,
+ #slider6:target ~ .imgContainer #button6{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider7:target ~ .imgContainer #img7,
+ #slider7:target ~ .imgContainer #button7{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider8:target ~ .imgContainer #img8,
+ #slider8:target ~ .imgContainer #button8{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider9:target ~ .imgContainer #img9,
+ #slider9:target ~ .imgContainer #button9{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider10:target ~ .imgContainer #img10,
+ #slider10:target ~ .imgContainer #button10{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider11:target ~ .imgContainer #img11,
+ #slider11:target ~ .imgContainer #button11{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider12:target ~ .imgContainer #img12,
+ #slider12:target ~ .imgContainer #button12{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider13:target ~ .imgContainer #img13,
+ #slider13:target ~ .imgContainer #button13{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider14:target ~ .imgContainer #img14,
+ #slider14:target ~ .imgContainer #button14{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider15:target ~ .imgContainer #img15,
+ #slider15:target ~ .imgContainer #button15{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider16:target ~ .imgContainer #img16,
+ #slider16:target ~ .imgContainer #button16{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+ #slider17:target ~ .imgContainer #img17,
+ #slider17:target ~ .imgContainer #button17{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    filter: saturate(100%);
+ }
+
+
+ #slider1:target ~ .imgContainer{
+    left: 160%;
+ }
+
+ #slider2:target ~ .imgContainer{
+    left: 140%;
+ }
+
+ #slider3:target ~ .imgContainer{
+    left: 120%;
+ }
+
+ #slider4:target ~ .imgContainer{
+    left: 100%;
+ }
+
+ #slider5:target ~ .imgContainer{
+    left: 80%;
+ }
+
+ #slider6:target ~ .imgContainer{
+    left: 60%;
+ }
+
+ #slider7:target ~ .imgContainer{
+    left: 40%;
+ }
+
+ #slider8:target ~ .imgContainer{
+    left: 20%;
+ }
+
+ #slider9:target ~ .imgContainer{
+    left: 0%;
+ }
+ #slider10:target ~ .imgContainer{
+    left: -20%;
+ }
+
+ #slider11:target ~ .imgContainer{
+    left: -40%;
+ }
+
+ #slider12:target ~ .imgContainer{
+    left: -60%;
+ }
+
+ #slider13:target ~ .imgContainer{
+    left: -80%;
+ }
+
+ #slider14:target ~ .imgContainer{
+    left: -100%;
+ }
+
+ #slider15:target ~ .imgContainer{
+    left: -120%;
+ }
+
+ #slider16:target ~ .imgContainer{
+    left: -140%;
+ }
+
+ #slider17:target ~ .imgContainer{
+    left: -160%;
+ }
+
+ html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
