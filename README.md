@@ -72,4 +72,4 @@ Image_Gallery_Slider/
 
 ## Screenshots
 
-![Image Gallery Slider Screenshot](IMAGEGALLERYSLIDER.png)
+![Image Gallery Slider Screenshot](Image.png)
